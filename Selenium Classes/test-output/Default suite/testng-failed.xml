@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day42.OrangeHRMTest">
+      <class name="day44.dependencyMethod.DependencyMethod">
         <methods>
-          <include name="testlogo"/>
-          <include name="testlogin"/>
+          <include name="openSongs"/>
+          <include name="songsListView"/>
+          <include name="openapp"/>
         </methods>
-      </class> <!-- day42.OrangeHRMTest -->
+      </class> <!-- day44.dependencyMethod.DependencyMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
