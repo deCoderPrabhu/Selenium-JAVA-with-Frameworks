@@ -1,20 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-07T00:07:57 IST" name="groupingSuite" finished-at="2025-01-07T00:07:57 IST" duration-ms="123">
+  <suite started-at="2025-01-10T00:09:53 IST" name="mySuite" finished-at="2025-01-10T00:10:19 IST" duration-ms="26543">
     <groups>
-      <group name="regression">
-        <method signature="GroupingsMethod1.checkReviewLink()[pri:2, instance:day44.groupings.GroupingsMethod1@1750fbeb]" name="checkReviewLink" class="day44.groupings.GroupingsMethod1"/>
-      </group> <!-- regression -->
     </groups>
-    <test started-at="2025-01-07T00:07:57 IST" name="groupTest" finished-at="2025-01-07T00:07:57 IST" duration-ms="123">
-      <class name="day44.groupings.GroupingsMethod1">
-        <test-method signature="checkReviewLink()[pri:2, instance:day44.groupings.GroupingsMethod1@1750fbeb]" started-at="2025-01-07T00:07:57 IST" name="checkReviewLink" finished-at="2025-01-07T00:07:57 IST" duration-ms="18" status="PASS">
+    <test started-at="2025-01-10T00:09:53 IST" name="edgeTest" finished-at="2025-01-10T00:10:16 IST" duration-ms="23027">
+      <class name="day45.ParamTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:day45.ParamTest@6f15d60e]" started-at="2025-01-10T00:09:53 IST" name="setup" finished-at="2025-01-10T00:10:07 IST" duration-ms="14565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edgeTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkReviewLink -->
-      </class> <!-- day44.groupings.GroupingsMethod1 -->
-    </test> <!-- groupTest -->
-  </suite> <!-- groupingSuite -->
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:0, instance:day45.ParamTest@6f15d60e]" started-at="2025-01-10T00:10:08 IST" name="testLogo" finished-at="2025-01-10T00:10:09 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testURL()[pri:1, instance:day45.ParamTest@6f15d60e]" started-at="2025-01-10T00:10:09 IST" name="testURL" finished-at="2025-01-10T00:10:09 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method signature="testTitle()[pri:2, instance:day45.ParamTest@6f15d60e]" started-at="2025-01-10T00:10:09 IST" name="testTitle" finished-at="2025-01-10T00:10:09 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day45.ParamTest@6f15d60e]" started-at="2025-01-10T00:10:09 IST" name="teardown" finished-at="2025-01-10T00:10:16 IST" duration-ms="6821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- day45.ParamTest -->
+    </test> <!-- edgeTest -->
+    <test started-at="2025-01-10T00:09:53 IST" name="chromeTest" finished-at="2025-01-10T00:10:16 IST" duration-ms="23034">
+      <class name="day45.ParamTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:day45.ParamTest@7d900ecf]" started-at="2025-01-10T00:09:53 IST" name="setup" finished-at="2025-01-10T00:10:09 IST" duration-ms="15859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:0, instance:day45.ParamTest@7d900ecf]" started-at="2025-01-10T00:10:09 IST" name="testLogo" finished-at="2025-01-10T00:10:09 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testURL()[pri:1, instance:day45.ParamTest@7d900ecf]" started-at="2025-01-10T00:10:09 IST" name="testURL" finished-at="2025-01-10T00:10:09 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method signature="testTitle()[pri:2, instance:day45.ParamTest@7d900ecf]" started-at="2025-01-10T00:10:09 IST" name="testTitle" finished-at="2025-01-10T00:10:09 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day45.ParamTest@7d900ecf]" started-at="2025-01-10T00:10:09 IST" name="teardown" finished-at="2025-01-10T00:10:16 IST" duration-ms="6510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- day45.ParamTest -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-01-10T00:09:53 IST" name="firefoxTest" finished-at="2025-01-10T00:10:19 IST" duration-ms="26543">
+      <class name="day45.ParamTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:day45.ParamTest@29d80d2b]" started-at="2025-01-10T00:09:53 IST" name="setup" finished-at="2025-01-10T00:10:18 IST" duration-ms="25033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefoxTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:0, instance:day45.ParamTest@29d80d2b]" started-at="2025-01-10T00:10:18 IST" name="testLogo" finished-at="2025-01-10T00:10:18 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testURL()[pri:1, instance:day45.ParamTest@29d80d2b]" started-at="2025-01-10T00:10:18 IST" name="testURL" finished-at="2025-01-10T00:10:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method signature="testTitle()[pri:2, instance:day45.ParamTest@29d80d2b]" started-at="2025-01-10T00:10:18 IST" name="testTitle" finished-at="2025-01-10T00:10:18 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:day45.ParamTest@29d80d2b]" started-at="2025-01-10T00:10:18 IST" name="teardown" finished-at="2025-01-10T00:10:19 IST" duration-ms="1409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- day45.ParamTest -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- mySuite -->
 </testng-results>
